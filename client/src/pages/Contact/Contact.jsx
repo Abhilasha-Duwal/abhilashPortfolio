@@ -20,7 +20,7 @@ const Contact = () => {
         return;
       }
 
-      const res = await axios.post(`${API_BASE}process.env.REACT_APP_API_BASE_URL/api/v1/portfolio/sendEmail`, {
+      const res = await axios.post(`${API_BASE}/api/v1/portfolio/sendEmail`, {
         name,
         email,
         msg,

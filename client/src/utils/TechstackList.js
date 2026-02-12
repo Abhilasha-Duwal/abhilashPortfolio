@@ -113,9 +113,4 @@ export const TechstackList = [
     name: "Docker ",
     icon: SiDocker,
   },
-  {
-    _id: 20,
-    name: "Nginx ",
-    icon: SiNginx,
-  },
 ];

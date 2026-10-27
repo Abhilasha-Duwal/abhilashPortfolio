@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.36938993.css",
-    "main.js": "/static/js/main.367c8edd.js",
+    "main.css": "/static/css/main.e5092bc9.css",
+    "main.js": "/static/js/main.85542bfa.js",
     "static/js/453.eca5f793.chunk.js": "/static/js/453.eca5f793.chunk.js",
     "static/media/dibtech.png": "/static/media/dibtech.09e786de8fb10c117cb5.png",
     "static/media/ecopanel.png": "/static/media/ecopanel.d5addce691d878a6a7ad.png",
@@ -9,12 +9,12 @@
     "static/media/dgmarket.png": "/static/media/dgmarket.4e71ce9eae4f7edab293.png",
     "static/media/abhilasha.pdf": "/static/media/abhilasha.0f0125a4d0374e63e18e.pdf",
     "index.html": "/index.html",
-    "main.36938993.css.map": "/static/css/main.36938993.css.map",
-    "main.367c8edd.js.map": "/static/js/main.367c8edd.js.map",
+    "main.e5092bc9.css.map": "/static/css/main.e5092bc9.css.map",
+    "main.85542bfa.js.map": "/static/js/main.85542bfa.js.map",
     "453.eca5f793.chunk.js.map": "/static/js/453.eca5f793.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36938993.css",
-    "static/js/main.367c8edd.js"
+    "static/css/main.e5092bc9.css",
+    "static/js/main.85542bfa.js"
   ]
 }

@@ -16,7 +16,7 @@ const WorkExp = () => {
           </h2>
           <hr />
           <VerticalTimeline lineColor="#1e1e2c">
-            <VerticalTimelineElement
+            {/* <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
               contentArrowStyle={{
@@ -47,7 +47,7 @@ const WorkExp = () => {
                 tenant-specific database connections. Use Redis and BullMQ for
                 background jobs and asynchronous processing.
               </p>
-            </VerticalTimelineElement>
+            </VerticalTimelineElement> */}
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}

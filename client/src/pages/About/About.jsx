@@ -26,16 +26,15 @@ const About = () => {
           <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
             <h1>About me</h1>
             <p>
-              I am Abhilasha Duwal, a graduate of the Bachelor of Science in
-              Computer Science and Information Technology (BSc. CSIT) program at
-              Tribhuvan University, completed in 2022 AD. My expertise spans
-              both frontend and backend development, encompassing technologies
-              such as HTML5, CSS3, Bootstrap, React, Redux and Redux Toolkit,
-              Node.js, and TypeScript. Proficient in database management with
-              MySQL, PostgreSQL, MongoDB, and SQLite, I specialize in
-              constructing RESTful APIs using frameworks like Express and
-              Fastify. Furthermore, I have acquired proficiency in
-              containerization using Docker.
+              Software Developer with 5+ years of experience in backend and
+              full-stack development, specializing in Node.js, TypeScript,
+              NestJS, React.js, REST APIs, and database-driven applications.
+              Experienced in building scalable backend services, document
+              management systems, rich-text editing, and digital-signature
+              platforms. Hands-on with TypeORM, MySQL/MariaDB, PostgreSQL,
+              MongoDB, Redis, BullMQ, Docker, Tiptap, Hocuspocus, WebSockets,
+              Socket.IO, and Pusher. Uses AI-assisted tools (Claude, OpenCode,
+              ChatGPT) to support coding, debugging, and problems-solving.
             </p>
           </div>
         </div>

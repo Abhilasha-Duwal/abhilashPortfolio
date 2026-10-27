@@ -30,21 +30,21 @@ const Home = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
         >
-          <h2>Hi 👋 I'm a</h2>
-          <h1>
-            <Typewriter
-              options={{
-                strings: [
-                  "FullStack Developer!",
-                  "Mern Stack Developer!",
-                  "React Developer!",
-                  "Software Engineer/Developer!",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h1>
+<h2>Hi 👋 I'm Abhilasha Duwal, a</h2>
+<h1>
+  <Typewriter
+    options={{
+      strings: [
+        "Backend Developer!",
+        "Full-Stack Developer!",
+        "Software Developer!",
+        "NestJS Developer!",
+      ],
+      autoStart: true,
+      loop: true,
+    }}
+  />
+</h1>
         </motion.div>
 
         {/* Fade bottom replacement */}

@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import axios from "axios";
 import "./Contact.css";
 import { motion } from "framer-motion";
-import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsFacebook, BsGithub, BsLinkedin, BsFiletypeHtml, BsPhone, BsMap } from "react-icons/bs";
 
 const Contact = () => {
   const [name, setname] = useState("");
@@ -82,6 +82,51 @@ const Contact = () => {
                   <a href="https://www.facebook.com/avilasha.duwal">
                     <BsFacebook color="blue" size={30} className="ms-2" />
                   </a>
+                </div>
+                <div className="row px-3 mb-4">
+                  <div className="line" />
+                  <small className="or text-center">OR</small>
+                  <div className="line" />
+                </div>
+                <div className="row px-3 mb-3">
+                  <div className="d-flex align-items-center">
+                    <div className="me-3">
+                      <BsGithub color="black" size={20} />
+                    </div>
+                    <div>
+                      <strong>GitHub:</strong> <a href="https://github.com/Abhilasha-Duwal" target="_blank" rel="noreferrer">Abhilasha-Duwal</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="row px-3 mb-3">
+                  <div className="d-flex align-items-center">
+                    <div className="me-3">
+                      <BsFiletypeHtml color="red" size={20} />
+                    </div>
+                    <div>
+                      <strong>Email:</strong> <a href="mailto:abhilashaduwal@gmail.com">abhilashaduwal@gmail.com</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="row px-3 mb-3">
+                  <div className="d-flex align-items-center">
+                    <div className="me-3">
+                      <BsPhone color="green" size={20} />
+                    </div>
+                    <div>
+                      <strong>Phone:</strong> <a href="tel:9843159414">9843159414</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="row px-3 mb-3">
+                  <div className="d-flex align-items-center">
+                    <div className="me-3">
+                      <BsMap color="blue" size={20} />
+                    </div>
+                    <div>
+                      <strong>Location:</strong> Bhaktapur, Nepal
+                    </div>
+                  </div>
                 </div>
 
                 <div className="row px-3 mb-4">

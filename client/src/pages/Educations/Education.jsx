@@ -14,31 +14,44 @@ const Education = () => {
           Education Details
         </h2>
         <hr />
-        <VerticalTimeline>
+<VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}
-            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            contentArrowStyle={{ borderRight: "7px solid white" }}
             date="2016 - 2022"
             iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">BSC. CSIT</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Tribhuvan University, IN
+              Tribhuvan University, Bhaktapur
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}
-            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            contentArrowStyle={{ borderRight: "7px solid white" }}
             date="2013 - 2015"
             iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">Higher Secondary School</h3>
+            <h3 className="vertical-timeline-element-title">Higher Secondary Education</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Bagiswori Higher Secondary School, IN
+              Bagiswori College, Bhaktapur
+            </h4>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "white", color: "black" }}
+            contentArrowStyle={{ borderRight: "7px solid white" }}
+            date="2012 - 2013"
+            iconStyle={{ background: "#138781", color: "#fff" }}
+            icon={<MdSchool />}
+          >
+            <h3 className="vertical-timeline-element-title">School Leaving Certificate</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Bagiswori Higher Secondary School, Bhaktapur
             </h4>
           </VerticalTimelineElement>
         </VerticalTimeline>

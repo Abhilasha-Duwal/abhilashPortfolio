@@ -20,81 +20,126 @@ const WorkExp = () => {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
               contentArrowStyle={{
-                borderRight: "7px solid  white",
+                borderRight: "7px solid white",
               }}
-              date="2024 - present"
+              date="2026 - present"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
-              icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+                Backend Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                dgMarket Nepal, pvt ltd
+                One Window Private Limited, Kathmandu
               </h4>
               <p>
-                Worked as a full-stack developer using React.js, TypeScript and
-                Node.js.
+                Develop and maintain backend services with Node.js, TypeScript,
+                NestJS, and TypeORM for a OneDrive-like document management and
+                collaboration platform. Design RESTful APIs for documents, files,
+                folders, permissions, sharing, and user management. Implement
+                live collaborative editing with Hocuspocus and rich-text editing
+                with Tiptap, with real-time synchronization of document changes.
+                Deliver real-time document and envelope updates using WebSockets,
+                Socket.IO, and Pusher. Build access-control, roles, sharing, and
+                access-request workflows, alongside digital-signature and
+                envelope-management features. Implement database entities,
+                relationships, queries, migrations, and optimizations in MySQL and
+                MariaDB; work with Docker and multi-tenant architecture using
+                tenant-specific database connections. Use Redis and BullMQ for
+                background jobs and asynchronous processing.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
               contentArrowStyle={{
-                borderRight: "7px solid  white",
+                borderRight: "7px solid white",
               }}
-              date="2022 - 2024"
+              date="2024 - 2026"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
-              icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
                 Software Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Dzango Technology / Eight Bit Pvt. Ltd., pvt ltd
+                dgMarket Nepal Pvt. Ltd., Maitidevi, Kathmandu
               </h4>
               <p>
-                Worked on monorepo, learning management system websites,
-                employees management systems and created APIs and many more.
+                Developed and maintained full-stack features using React.js,
+                TypeScript, and Node.js. Integrated REST APIs and built reusable
+                frontend components for the dgMarket Nepal website and related
+                applications. Collaborated with developers and stakeholders to
+                troubleshoot issues and improve functionality.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
               contentArrowStyle={{
-                borderRight: "7px solid  white",
+                borderRight: "7px solid white",
               }}
-              date="2020 - 2022"
+              date="2022 - 2024"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
-              icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+                Software Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Dibtech Nepal, pvt ltd
+                Dzango Technology / Eight Bit Pvt. Ltd., Sanepa, Lalitpur
               </h4>
-              <p>Worked on E-commerce websites and Crypto-currency blogs</p>
+              <p>
+                Built full-stack applications with React.js, TypeScript, Redux,
+                Redux Toolkit, Node.js, Fastify, and PostgreSQL. Designed
+                RESTful APIs and contributed shared packages and reusable
+                components in a monorepo. Developed features for Learning
+                Management Systems (LMS) and employee-management applications.
+                Implemented internationalization with i18next and react-i18next;
+                automated workflows with Make.com. Wrote unit and component tests
+                with Jest and React Testing Library; used Docker in development
+                and deployment.
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
               contentArrowStyle={{
-                borderRight: "7px solid  white",
+                borderRight: "7px solid white",
+              }}
+              date="2020 - 2022"
+              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Full-Stack Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Dibtech Nepal Pvt. Ltd., Shantinagar, Kathmandu
+              </h4>
+              <p>
+                Developed responsive frontend applications using React.js, Redux,
+                TypeScript, and Tailwind CSS. Built backend API endpoints using
+                Node.js, Express.js, and MongoDB, and integrated REST APIs and
+                GraphQL. Led frontend development across multiple projects,
+                building reusable UI components for e-commerce and cryptocurrency-related websites.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentArrowStyle={{
+                borderRight: "7px solid white",
               }}
               date="2020 - 2020"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
-              icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Front-end Web Development Intern
+                Front-End Web Development Intern
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Fnclick, pvt ltd
+                Fnclick Pvt. Limited, Libali, Bhaktapur
               </h4>
               <p>
-                Contributed to projects using Bootstrap 4, HTML, CSS3, and
-                JavaScript.
+                Built responsive web interfaces using HTML5, CSS3, Bootstrap 4,
+                JavaScript, and jQuery. Contributed to frontend development and
+                UI improvements, including work on the Eco-panel Nepal website.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
